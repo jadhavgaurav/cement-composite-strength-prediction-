@@ -70,8 +70,6 @@ This project demonstrates the feasibility of using **waste materials** like slag
 - Both models were trained with default parameters.
 =======
 - Both models were trained with default parameters (hyperparameter tuning was skipped to reduce execution time).
->>>>>>> 19065ef85ac807e7e7d9928f20f5ea72865b2b38
-
 ### 4. **Model Evaluation**
 - Metrics used: **R-squared (R²)**, **Mean Absolute Error (MAE)**, and **Root Mean Squared Error (RMSE)**.
 - **Random Forest**: Achieved **R² = 0.89** on the test set.
