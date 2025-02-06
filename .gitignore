@@ -1,0 +1,3 @@
+venv/
+keras_tuner_results/
+.ipynb_checkpoints/
