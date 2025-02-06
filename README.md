@@ -6,10 +6,11 @@ To predict the ultimate compressive strength of cement composite mixtures using 
 ---
 
 ## Summary of the Project
-<<<<<<< HEAD
+
 This project aims to assist in the **design and optimization of cementitious composites** by predicting their **uniaxial compressive strength (UCS)** based on input variables such as proportions of materials, curing age, and other factors. By replacing the traditional costly and time-consuming experimental methods with a machine learning approach, this project contributes to advancing material science and construction industry practices.
 
 Key Highlights:
+
 - The dataset includes material proportions, curing age, and resulting UCS values.
 - The models enable accurate predictions, reducing the need for extensive physical testing.
 - Random Forest achieved an accuracy of **89%**, while ANN achieved **85%**.
@@ -40,12 +41,11 @@ Key aspects of the study include:
    - The BAS-RF model closely replicates experimental results, demonstrating its reliability for predictive simulations.
 
 This project demonstrates the feasibility of using **waste materials** like slags to produce high-performance ECCCs, promoting sustainability and advancing intelligent construction technologies.
->>>>>>> 19065ef85ac807e7e7d9928f20f5ea72865b2b38
 
 ---
 
 ## Model Building Techniques
-<<<<<<< HEAD
+
 
 ### 1. **Data Preprocessing**
 - Addressed missing values.
@@ -54,23 +54,19 @@ This project demonstrates the feasibility of using **waste materials** like slag
 ### 1. **Data Preprocessing**
 - Addressed missing values.
 - Scaled the features using **MinMaxScaler**.
->>>>>>> 19065ef85ac807e7e7d9928f20f5ea72865b2b38
 - Performed train-test split for model evaluation.
 
 ### 2. **Feature Engineering**
 - Derived features such as the **cement-to-water ratio** to enhance prediction accuracy.
-<<<<<<< HEAD
 =======
 - Created a composite feature `Comps` to combine the effects of cement, blast furnace slag, superplasticizer, and water:
   ```python
   df['Comps'] = (df['cement'] + df['blast_furnace_slag'] + df['superplasticizer']) / df['water']
   ```
->>>>>>> 19065ef85ac807e7e7d9928f20f5ea72865b2b38
 
 ### 3. **Model Selection and Training**
 - Used **Random Forest Regressor** for its ability to handle non-linear relationships and robustness to overfitting.
 - Used **Artificial Neural Network (ANN)** for its capability to model complex relationships between features.
-<<<<<<< HEAD
 - Both models were trained with default parameters.
 =======
 - Both models were trained with default parameters (hyperparameter tuning was skipped to reduce execution time).
@@ -108,17 +104,14 @@ This project demonstrates the feasibility of using **waste materials** like slag
 
 4. **Run the Flask App (Optional)**:
    - Use the Flask app provided to make predictions via a user-friendly web interface.
-<<<<<<< HEAD
 =======
    ```bash
    python app.py
    ```
->>>>>>> 19065ef85ac807e7e7d9928f20f5ea72865b2b38
 
 ---
 
 ## Conclusion
-<<<<<<< HEAD
 The project successfully predicts the ultimate compressive strength of cement composite mixtures using machine learning techniques. Random Forest achieved an accuracy of **89%**, while ANN achieved **85%**. This work demonstrates the potential of machine learning to optimize material design and reduce the dependency on physical testing.
 
 Future enhancements include:
@@ -142,4 +135,3 @@ This project highlights the potential of using waste materials for producing hig
 This project demonstrates the potential of leveraging waste materials and machine learning for sustainable, high-performance ECCC development, paving the way for intelligent construction technologies.
 
 ---
->>>>>>> 19065ef85ac807e7e7d9928f20f5ea72865b2b38
